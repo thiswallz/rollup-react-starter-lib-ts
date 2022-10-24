@@ -1,5 +1,7 @@
 # rollup-react-starter-lib-ts
 
+[![npm package][npm-badge]][npm]
+
 <image width="100px" src="https://rollupjs.org/logo.svg" />
 
 Template to create your own Typescript React library with Rollup.
@@ -45,3 +47,6 @@ cd your-app/
 ```
 npm link name-of-your-lib
 ```
+
+[npm-badge]: https://img.shields.io/npm/v/rollup-react-starter-lib-ts.svg
+[npm]: https://www.npmjs.org/package/rollup-react-starter-lib-ts
