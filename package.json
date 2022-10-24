@@ -1,6 +1,6 @@
 {
   "name": "rollup-react-starter-lib-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rolllup template for creating your react/typescript library",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -40,7 +40,7 @@
     "template"
   ],
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^16 || ^17 || ^18",
+    "react-dom": "^16 || ^17 || ^18"
   }
 }
