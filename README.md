@@ -1,7 +1,15 @@
 # rollup-react-starter-lib-ts
-
-[![npm package][npm-badge]][npm]
-
+<p align="center">
+  <a href="https://www.npmjs.com/package/rollup-react-starter-lib-ts">
+    <img src="https://img.shields.io/npm/v/rollup-react-starter-lib-ts.svg" alt="npm version" >
+  </a>
+  <a href="https://packagephobia.now.sh/result?p=rollup-react-starter-lib-ts">
+    <img src="https://packagephobia.now.sh/badge?p=rollup-react-starter-lib-ts" alt="install size" >
+  </a>
+  <a href="https://github.com/rollup/rollup/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/npm/l/rollup-react-starter-lib-ts.svg" alt="license">
+  </a>
+</p>
 <image width="100px" src="https://rollupjs.org/logo.svg" />
 
 Template to create your own Typescript React library with Rollup.
