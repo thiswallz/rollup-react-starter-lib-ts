@@ -56,5 +56,35 @@ cd your-app/
 npm link name-of-your-lib
 ```
 
+### Want to also minify bundle output?
+
+You can install rollup-plugin-terser (still works with rollup v3, but since it has no updates, we need to install it with legacy peer options)
+
+```
+npm i rollup-plugin-terser --save-dev --legacy-peer-deps
+```
+
+#### Configure
+
+rollup.config.mjs
+
+``` javascript
+import { terser } from 'rollup-plugin-terser';
+
+...
+
+ plugins: [
+      peerDepsExternal(),
+      resolve(),
+      commonjs(),
+      typescript({ tsconfig: "./tsconfig.json" }),
+      terser(), // we add it here
+ ]
+
+
+
+```
+
+
 [npm-badge]: https://img.shields.io/npm/v/rollup-react-starter-lib-ts.svg
 [npm]: https://www.npmjs.org/package/rollup-react-starter-lib-ts
